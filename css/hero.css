@@ -1,0 +1,27 @@
+section.hero {
+  margin-block: 20px 210px;
+  background: url("../images/element.svg") no-repeat -4% 2%;
+}
+
+.container__text-field {
+  width: 450px;
+}
+
+.title.hero {
+  font-size: 48px;
+}
+
+.text.hero {
+  font-size: 21px;
+  margin: 25px 0 45px;
+}
+
+.text.providers {
+  margin-block: 30px;
+}
+
+button.filled {
+  background: #458ff6;
+  color: #fff;
+  border: none;
+}

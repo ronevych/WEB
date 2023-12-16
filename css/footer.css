@@ -1,0 +1,32 @@
+.footer {
+  height: 100px;
+  background: 
+    url("../images/element.svg") no-repeat -2%,
+    linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%),
+    url("../images/element.svg") no-repeat 88% 40%;
+  padding-top: 35px;
+}
+
+.footer__title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer__logo {
+  background-color: #fff;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #5b9bf3;
+}
+
+.footer__nav-item {
+  color: #fff;
+  margin-inline: 50px;
+}

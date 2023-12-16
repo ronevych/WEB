@@ -1,0 +1,78 @@
+body {
+  font-family: "Mulish";
+  color: #7d7987;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #7d7987;
+}
+
+.container.inline-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+p {
+  line-height: 30px;
+}
+
+.inline-nav {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.inline-nav ul li {
+  padding-right: 40px;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: white;
+  color: #458ff6;
+  cursor: pointer;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 160px;
+}
+
+.title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 300;
+}

@@ -1,0 +1,21 @@
+.title.header {
+    font-size: 24px;
+    color: #233348;
+}
+
+.header__logo {
+    background-color: #458FF6;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+}
+
+.header__nav-item.home {
+    font-weight: 700;
+    color: var(--1f1534-hyfen, #1F1534);
+}
