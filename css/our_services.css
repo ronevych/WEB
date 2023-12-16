@@ -1,0 +1,53 @@
+.our-services {
+  margin: 0 auto;
+  text-align: center;
+  background: 
+    url("../images/vector.svg") no-repeat 0 20%,
+    url("../images/element.svg") no-repeat 88% 40%,
+    url("../images/element.svg") no-repeat 95% 104%;
+}
+
+.our-service__textField {
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container.row {
+  width: 1120px;
+  margin-bottom: 35px;
+}
+
+.service {
+  width: 350px;
+  height: 310px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  padding: 40px 30px 0px;
+  margin: 0px 20px 0px;
+  text-align: start;
+}
+
+.service img {
+  height: 90px;
+}
+
+.our-service__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.our-service__text {
+  font-size: 16px;
+  color: #7d7987;
+  font-weight: 300;
+}
+
+.our-services__button {
+  margin-block: 35px 200px;
+}
